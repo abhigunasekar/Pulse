@@ -12,7 +12,17 @@
 	],
 	"observability": {
 		"enabled": true
-	}
+	},
+	"d1_databases": [
+		{
+			"binding": "DB",
+			"database_name": "pulse-db",
+			"database_id": "fa41d8d7-9dd8-4662-931c-3ec0f4774a40"
+		}
+	],
+	"ai": {
+		"binding": "AI"
+	},
 	/**
 	 * Smart Placement
 	 * https://developers.cloudflare.com/workers/configuration/smart-placement/#smart-placement
